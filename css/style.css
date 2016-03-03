@@ -1,0 +1,40 @@
+.header{
+	background-image: url('../asset/header2.jpg');
+	height: 200px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.header .container{
+  left: 50px;
+  top: 80px;
+  position: relative;
+}
+
+.jumbotron{
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container-fluid{
+  left-margin: auto;
+  right-margin:auto;
+  text-align: center;
+}
+.jumbotron h1{
+  font-size: 100px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h2{
+  font-size: 20px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  position:center;
+}
+.jumbotron p{
+	font-size: 10px;
+}
+#register{
+	width:200px;
+
+}

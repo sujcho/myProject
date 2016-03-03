@@ -1,0 +1,133 @@
+
+.header{
+  background-color: #E80058;
+	height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .social{
+  right: 50px;
+  top: 15px;
+  position: relative;
+}
+.btn-facebook{color:#fff;background-color:transparent;border-color:#fff}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:hover{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}.btn-facebook:active:hover,.btn-facebook.active:hover,.open>.dropdown-toggle.btn-facebook:hover,.btn-facebook:active:focus,.btn-facebook.active:focus,.open>.dropdown-toggle.btn-facebook:focus,.btn-facebook:active.focus,.btn-facebook.active.focus,.open>.dropdown-toggle.btn-facebook.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{background-image:none}
+.btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled.focus,.btn-facebook[disabled].focus,fieldset[disabled] .btn-facebook.focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+.btn-facebook .badge{color:#3b5998;background-color:#fff}
+.btn-twitter{color:#fff;background-color:transparent;border-color:rgba(0,0,0,0.2)}.btn-twitter:focus,.btn-twitter.focus{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}
+.btn-twitter:hover{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}.btn-twitter:active:hover,.btn-twitter.active:hover,.open>.dropdown-toggle.btn-twitter:hover,.btn-twitter:active:focus,.btn-twitter.active:focus,.open>.dropdown-toggle.btn-twitter:focus,.btn-twitter:active.focus,.btn-twitter.active.focus,.open>.dropdown-toggle.btn-twitter.focus{color:#fff;background-color:#1583d7;border-color:rgba(0,0,0,0.2)}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{background-image:none}
+.btn-twitter.disabled,.btn-twitter[disabled],fieldset[disabled] .btn-twitter,.btn-twitter.disabled:hover,.btn-twitter[disabled]:hover,fieldset[disabled] .btn-twitter:hover,.btn-twitter.disabled:focus,.btn-twitter[disabled]:focus,fieldset[disabled] .btn-twitter:focus,.btn-twitter.disabled.focus,.btn-twitter[disabled].focus,fieldset[disabled] .btn-twitter.focus,.btn-twitter.disabled:active,.btn-twitter[disabled]:active,fieldset[disabled] .btn-twitter:active,.btn-twitter.disabled.active,.btn-twitter[disabled].active,fieldset[disabled] .btn-twitter.active{background-color:#55acee;border-color:rgba(0,0,0,0.2)}
+.btn-twitter .badge{color:#55acee;background-color:#fff}
+
+.header .container{
+  left: 30px;
+  top: 30px;
+  position: relative;
+}
+.header h1{
+  color: #fff;
+  font-size: 70px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.header p{
+  color:#fff;
+  font-size: 30px;
+}
+.jumbotron{
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background: url('header.jpg')
+}
+.jumbotron .container-fluid{
+  left-margin: auto;
+  right-margin:auto;
+  text-align: center;
+}
+.jumbotron h2{
+  font-size: 30px;  
+  margin-top: auto;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  position:center;
+}
+.jumbotron a{
+  font-size: 20px;
+}
+.jumbotron .register{
+  left-margin: auto;
+  right-margin:auto;
+  text-align: center;
+}
+.jumbotron .register p{
+  font-size: 20px;  
+  font-weight: bold;
+  font-family: 'Shift', sans-serif;
+  position:center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.jumbotron .signin{
+  left-margin: auto;
+  right-margin:auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.jumbotron .signin p{
+  font-size: 20px;  
+  font-family: 'Shift', sans-serif;
+  position:center;
+  margin-top: 40px;
+  margin-bottom: auto;
+  color: #BCBCBC;
+}
+.btn{
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+} 
+.jumbotron #btn-register{
+  width: 150px;
+  padding: 10px 15px;
+  font-weight: 500;
+}
+.jumbotron #btn-signin{
+  width: 120px;
+  padding: 7px 10px;
+  font-weight: 500;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary {
+    background: #E80058;
+    color: #ffffff;
+}
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #E80058;
+    color: #E80058;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    border-color: #fff;
+    background: #E80058;    
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #fff;
+    color: #fff;
+    box-shadow: none;
+    background: #E80058;    
+}
