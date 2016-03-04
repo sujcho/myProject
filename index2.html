@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>matlink_scratch</title>
+
+	<!-- Bootstrap core css-->
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<!--For social buttons-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-social.css">
+	<!-- Custom styles for this html-->
+	<link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="social pull-right">
+			<a class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a>
+			<a class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a>
+		</div>
+		<div class="container">
+			<h1>mAtLiNK</h1>
+		</div>
+	</div>
+	<div class="jumbotron">
+		<div class="container-fluid">
+			<h2>The platform for materials and project reach</h2>
+			<a href="#">Learn More</a>
+			<div class="register">	
+				<p>If you're not a memeber,</p>
+				<!-- trigger register modal-->
+				<button type="button" class="btn btn-primary btn-lg outline" id="btn-register" data-toggle="modal" data-target="#registerModal">Register</button>
+			</div>
+			<div class="signin">
+				<p>If you are a member,</p>
+				<a href="supplier.html" role="button" class="btn btn-primary btn-lg outline signin" id="btn-signin-suppliers"><span>Log In</span><span> Suppliers</span> </a>
+				<button type="button" class="btn btn-primary btn-lg outline signin" id="btn-signin-designers"><span>Log In</span><span> Designers</span> </button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Register Modal -->
+	<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Create An Account</h4>
+				</div>
+				<div class="modal-body">
+					<label for="inputUsername" class="sr-only">Username</label>
+        			<input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>	
+					<label for="inputEmail" class="sr-only">Email address</label>
+        			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        			<label for="inputPassword" class="sr-only">Password</label>
+        			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        			<!-- has to fix!!! -->
+        			<a href="#collapseOne" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">Terms and Condition</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary" type="submit">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	<!--  -->
+	<!-- Include Js files -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom js for this html-->
+	<script src="js/index.js"></script>
+
+</body>
+</html>
