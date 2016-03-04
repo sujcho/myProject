@@ -45,7 +45,7 @@
 	<div class="myProduct">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3" "right-side">
+				<div class="col-md-3">
 					<ul class="nav nav-tabs nav-stacked">
 						<li><a href='#'>Another Link 1</a></li>
 						<li><a href='#'>Another Link 2</a></li>
@@ -57,17 +57,36 @@
 						<li><a href='#'>Another Link 3</a></li>
 					</ul>
 				</div>
-				<div class="col-md-9" "left-side">
-					<div class = "container">
-						<p>My Products</p>
-						<a href="#" role="button" class="btn btn-primary btn-sm"><span>see</span></a>
-						<a href="#" role="button" class="btn btn-primary btn-sm"><span>edit</span></a>
+				<div class="col-md-6">
+					<div class = "row" id="my-products">
+						<h3>My Products</h3>
+						<a href="#see-my-products" role="button" id="btn-see-my-products" class="btn btn-primary btn-sm" data-toggle="collapse" aria-expanded="false" aria-controls="see-my-products"><span>see</span></a>
+						<a href="#" role="button" id="btn-edit-my-products" class="btn btn-primary btn-sm"><span>edit</span></a>
+						<div class="collapse" id="see-my-products">
+							<ul class="category">
+								<li role="button">Category1</li>
+								<li role="button">Category2</li>
+								<li role="button">Category3</li>
+							</ul>
+							<button class="btn btn-primary" id="close">close</button>
+						</div>
 					</div>
-					<div class= "container">
-						<p>My Showcase</p>
-						<a href="#" role="button" class="btn btn-primary btn-sm"><span>see</span></a>
+					<div class= "row" id="my-showcase">
+						<h3>My Showcase</h3>
+						<a href="#show-my-showcase" role="button" id="btn-show-my-showcase" class="btn btn-primary btn-sm" data-toggle="collapse" aria-expanded="false" aria-controls="show-my-showcase"><span>see</span></a>
 						<a href="#" role="button" class="btn btn-primary btn-sm"><span>edit</span></a>
+						<div class="collapse" id="show-my-showcase">
+							<ul class="showcase-menu">
+								<li role="button">Design Template</li>
+								<li role="button">Site Settings</li>
+								<li role="button">Add Category Product</li>
+								<li role="button">Upload Highlited Material</li>
+							</ul>
+						</div>
 					</div>
+				</div>
+				<div class="col-md-3">
+				<h3>md</h3>
 				</div>
 			</div>
 		</div>
@@ -85,7 +104,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom js for this html-->
-	<script src="js/index.js"></script>
+	<script src="js/supplier.js"></script>
 </body>
 </html>
 

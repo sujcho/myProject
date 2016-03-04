@@ -1,3 +1,4 @@
+/* for search*/
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
@@ -10,4 +11,13 @@
     border:0;
     background:transparent;
     height: 10px;
+}
+
+#my-products{
+	background-color: #E2DDD9;
+	height: 250px;
+}
+#my-showcase{
+	background-color: #A8A39D;
+	height: 250px;
 }
