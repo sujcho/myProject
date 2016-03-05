@@ -1,15 +1,21 @@
-$('#btn-see-my-products').on( "click", function() {
-		$('#see-my-products').collapse();
-		$('#btn-see-my-products').hide();
-		$('#btn-edit-my-products').hide();
+$('#btnSeeMyProducts').on( "click", function() {
+		$('#seeMyProducts').collapse();
+		$('#btnSeeMyProducts').hide();
+		$('#btnEditMyProducts').hide();
 });
-$('#btn-show-my-showcase').on( "click", function() {
-		$('show-my-showcase').collapse();
-		$('#btn-see-my-products').hide();
-		$('#btn-edit-my-products').hide();
+$('#btnMyProductsClose').on("click", function(){
+	$('#seeMyProducts').collapse('hide');
+	$('#btnSeeMyProducts').show();
+	$('#btnEditMyProducts').show();
 });
-$('#close').on("click", function(){
-	$('#see-my-products').collapse('hide');
-	$('#btn-see-my-products').show();
-	$('#btn-edit-my-products').show();
+$('#btnSeeMyShowcase').on( "click", function() {
+		$('#seeMyShowcase').collapse();
+		$('#btnSeeMyShowcase').hide();
+		$('#btnEditMyShowcase').hide();
 });
+$('#btnMyShowcaseClose').on("click", function(){
+	$('#seeMyShowcase').collapse('hide');
+	$('#btnSeeMyShowcase').show();
+	$('#btnEditMyShowcase').show();
+});
+
