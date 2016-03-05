@@ -8,6 +8,9 @@ $('#btnMyProductsClose').on("click", function(){
 	$('#btnSeeMyProducts').show();
 	$('#btnEditMyProducts').show();
 });
+$('#btnEditMyProducts').on("click", function(){
+	$('.sidebar-nav').removeClass('hide');
+})
 $('#btnSeeMyShowcase').on( "click", function() {
 		$('#seeMyShowcase').collapse();
 		$('#btnSeeMyShowcase').hide();
@@ -19,3 +22,7 @@ $('#btnMyShowcaseClose').on("click", function(){
 	$('#btnEditMyShowcase').show();
 });
 
+$('.category li').on("click", function(){
+	alert($(this).text());
+
+});
