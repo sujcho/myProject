@@ -1,16 +1,29 @@
-$('#btnSeeMyProducts').on( "click", function() {
-		$('#seeMyProducts').collapse();
-		$('#btnSeeMyProducts').hide();
-		$('#btnEditMyProducts').hide();
+$('#btnSeeMp').on( "click", function() {
+		$('#seeMp').collapse();
+		$('#btnSeeMp').hide();
+		$('#btnEditMp').hide();
 });
-$('#btnMyProductsClose').on("click", function(){
-	$('#seeMyProducts').collapse('hide');
-	$('#btnSeeMyProducts').show();
-	$('#btnEditMyProducts').show();
+$('#btnMpClose').on("click", function(){
+	$('#seeMp').collapse('hide');
+	$('#btnSeeMp').show();
+	$('#btnEditMp').show();
 });
-$('#btnEditMyProducts').on("click", function(){
-	$('.sidebar-nav').removeClass('hide');
+$('#btnEditMp').on("click", function(){
+	//show side bar menu, to be fixed later 
+	//$('.sidebar-nav').removeClass('hide');
+	$('#editMp').collapse();
+	$('#btnSeeMp').hide();
+    $('#btnEditMp').hide();
 })
+$('#btnEditMpSave').on("click", function(){
+	//show side bar menu 
+	$('#editMp').collapse('hide');
+	$('btnEditMpSave').hide();
+	$('#btnSeeMp').show();
+	$('#btnEditMp').show();
+})
+
+
 $('#btnSeeMyShowcase').on( "click", function() {
 		$('#seeMyShowcase').collapse();
 		$('#btnSeeMyShowcase').hide();
@@ -24,5 +37,4 @@ $('#btnMyShowcaseClose').on("click", function(){
 
 $('.category li').on("click", function(){
 	alert($(this).text());
-
 });
